@@ -1,0 +1,14 @@
+img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+#myname{
+    color:blue
+}
+h2{
+    color:grey
+}
+div{
+    margin: 4px
+}
