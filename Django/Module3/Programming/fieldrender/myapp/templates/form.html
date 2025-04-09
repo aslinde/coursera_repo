@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+</head>
+<body>
+    <form action="/form" method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form.as_p }}  <!-- This will render the form fields in a table -->
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
